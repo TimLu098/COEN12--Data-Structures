@@ -1,0 +1,28 @@
+unique
+------
+                              unsorted  sorted
+GreenEggsAndHam.txt             0.014s   0.010s
+Macbeth.txt                     0.050s   0.030s
+Genesis.txt                     0.052s   0.022s
+HoundOfTheBaskervilles.txt      0.121s   0.035s
+TheWarOfTheWorlds.txt           0.154s   0.035s
+TreasureIsland.txt              0.154s   0.041s
+TheSecretGarden.txt             0.133s   0.033s
+TwentyThousandLeagues.txt       0.315s   0.058s
+TheCountOfMonteCristo.txt       1.542s   0.190s
+Bible.txt                       1.668s   0.184s
+
+
+parity
+------
+                              unsorted  sorted
+GreenEggsAndHam.txt             0.014s   0.014s
+Macbeth.txt                     0.138s   0.057s
+Genesis.txt                     0.174s   0.056s
+HoundOfTheBaskervilles.txt      0.626s   0.149s
+TheWarOfTheWorlds.txt           0.738s   0.169s
+TreasureIsland.txt              0.760s   0.169s
+TheSecretGarden.txt             0.705s   0.170s
+TwentyThousandLeagues.txt       1.752s   0.388s
+TheCountOfMonteCristo.txt      15.538s   2.981s
+Bible.txt                      16.588s   3.780s
