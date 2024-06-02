@@ -1,0 +1,27 @@
+COEN12 Term Project 
+application 3 report:
+
+
+Time Complexities:
+
+createDataSet() :  Ｏ(1)
+destroyDataSet():  Ｏ(1)
+searchAge():       Ｏ(n)
+searchId():        Ｏ(n)
+insertion():       Ｏ(1)
+deletion():        Ｏ(n)
+maxAgeGap():       Ｏ(1)
+
+
+
+In this scenrio, we will perform frequent insertion and deletion, 
+but the search operation is not performed frequently.
+So I choose to use linked list to implement this application, 
+because we will only have O(1) for the insertion and Ｏ(n) for deletion. 
+This is better than using hash table, because we will have insertion as Ｏ(n)
+instead of Ｏ(1) if we use hash table. 
+
+
+
+used an array of structures to maintain student records of id and age. 
+The number if maximum students is not provided, 

@@ -1,0 +1,22 @@
+COEN12 Term Project 
+application 3 report:
+
+
+Time Complexities(In worst case):
+
+createDataSet:   Ｏ(1)
+destroyDataSet:  Ｏ(n)
+searchAge:       Ｏ(n)
+searchId:        Ｏ(n)
+insertion:       Ｏ(n)
+deletion:        Ｏ(n)
+maxAgeGap:       Ｏ(1)
+
+
+
+In this scenrio, we will perform frequent insertion and deletion, 
+but the search operation is not performed frequently.
+So I choose to implement LIST abstract data type, which use circular doubly linked list to implement this application, 
+Because we will only have Ｏ(1) for the insertion if we consider in the best case. 
+This is better than using hash table, because we will have insertion as Ｏ(n)
+instead of Ｏ(1) if we use hash table. 

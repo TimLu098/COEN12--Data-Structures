@@ -1,0 +1,30 @@
+Yen-Jung LU
+COEN12 Term Project 
+application 2 report:
+
+
+
+Time Complexity:
+
+createDataSet: O(n)
+
+deleteDataSet: O(1)
+
+searchID: O(1)
+
+insert: O(1)
+
+delete: O(1)
+
+
+The data structure used in this program was an 
+array. This was chosen becasue the student max 
+was 3000 with each having to contain a unique id.
+This scenerio will do frequent search, and infrequent 
+insert and delete.Hence, I use hash table to implement
+this scenerio, because it will have O(1) instead of O(n)
+if it compare to using linked list to do search. 
+
+
+
+
